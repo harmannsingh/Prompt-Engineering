@@ -1,0 +1,1 @@
+{"input": "<system>\nYou are an expert Python developer.\n<user>\nCount the vowels in a string.", "output": "def count_vowels(s):\n    return sum(1 for c in s.lower() if c in 'aeiou')"}

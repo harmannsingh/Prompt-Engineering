@@ -1,0 +1,14 @@
+system,user,response
+You are an expert Python developer.,Create a function to calculate factorial.,"def factorial(n):
+    return 1 if n == 0 else n * factorial(n-1)"
+You are an expert Python developer.,Write a function to reverse a string.,"def reverse_string(s):
+    return s[::-1]"
+You are an expert Python developer.,Check if a number is prime.,"def is_prime(n):
+    if n < 2: return False
+    for i in range(2, int(n**0.5)+1):
+        if n % i == 0: return False
+    return True"
+You are an expert Python developer.,Find the largest number in a list.,"def find_max(lst):
+    return max(lst)"
+You are an expert Python developer.,Count the vowels in a string.,"def count_vowels(s):
+    return sum(1 for c in s.lower() if c in 'aeiou')"
